@@ -1,0 +1,96 @@
+/* GradeCalculator.module.css */
+body {
+  background-image: url('./images/uiucback.jpg'); /* Adjust the path according to your project structure */
+  background-size: cover; /* Ensures the image covers the entire background */
+  
+  background-position: center center; /* Centers the image */
+  height: 100vh; /* Ensures the background covers the entire viewport height */
+  margin: 0; /* Removes default margin */
+  font-family: Arial, sans-serif; /* Optional: sets the default font */
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(150px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: rgba(41, 120, 255, 0.818);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.deletebutton {
+  background-color: rgba(41, 120, 255, 0.818);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.deletebutton:hover {
+  background-color: #ff2323;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.toprightcontainer {
+  position: relative;
+  height: 2vh; /* Adjust as needed */
+}
+
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin: 10px; /* Optional: add margin if needed */
+}
+
+.blackHeading {
+  color: rgb(66, 66, 66);
+}
